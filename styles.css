@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
 }
 html,
@@ -64,7 +64,7 @@ body {
   font-family: "Jost";
 }
 :root {
-  --logo-color-2: #2196F3;
+  --logo-color-2: #2196f3;
 }
 :root {
   --text-color: #212121;
@@ -165,55 +165,53 @@ body {
   word-wrap: break-word;
 }
 .nav-5 {
-color: var(--text-color);
-font-size: 14px;
-font-family: Roboto;
-font-weight: 500;
-letter-spacing: 0.28px;
-word-wrap: break-word;
+  color: var(--text-color);
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  word-wrap: break-word;
 }
-.nav-4:hover{
+.nav-4:hover {
   color: var(--logo-color-2);
 }
-.nav-5:hover{
-color: var(--logo-color-2);
+.nav-5:hover {
+  color: var(--logo-color-2);
 }
 .nav-4 {
-color: var(--text-color);
-font-size: 14px;
-font-family: Roboto;
-font-weight: 500;
-letter-spacing: 0.28px;
-word-wrap: break-word;
+  color: var(--text-color);
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  word-wrap: break-word;
 }
 .nav-2 {
-
-color: var(--text-color);
-font-size: 14px;
-font-family: Roboto;
-font-weight: 500;
-letter-spacing: 0.28px;
-word-wrap: break-word;
+  color: var(--text-color);
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  word-wrap: break-word;
 }
 .nav-2:hover {
   color: var(--logo-color-2);
 }
 .nav-3:hover {
-  color: var(--logo-color-2);}
+  color: var(--logo-color-2);
+}
 .nav-3 {
-
-color: var(--text-color);
-font-size: 14px;
-font-family: Roboto;
-font-weight: 500;
-letter-spacing: 0.28px;
-word-wrap: break-word;
+  color: var(--text-color);
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  word-wrap: break-word;
 }
 .nav-1:hover {
   color: var(--logo-color-2);
 }
 .nav-1 {
-
   color: var(--text-color);
   font-size: 14px;
   font-family: Roboto;
@@ -230,7 +228,7 @@ word-wrap: break-word;
   word-wrap: break-word;
 }
 .web {
-  color: #2196F3;
+  color: #2196f3;
   font-size: 26px;
   font-family: Raleway;
   font-weight: 700;
