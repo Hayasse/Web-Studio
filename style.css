@@ -306,16 +306,16 @@ body {
   margin-bottom: 30px;
 }
 .attention::before {
-  background-image: url(img/image.jpg);
+  background-image: url(img/antenna.jpg);
 }
 .punctuality::before {
-  background-image: url(img/image\ \(2\).jpg);
+  background-image: url(img/diagram.jpg);
 }
 .planning::before {
-  background-image: url(img/image\ \(3\).jpg);
+  background-image: url(img/clock.jpg);
 }
 .technology::before {
-  background-image: url(img/image\ \(1\).jpg);
+  background-image: url(img/astronaut.jpg);
 }
 .nav-2:hover {
   color: var(--logo-color-2);
