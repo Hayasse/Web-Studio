@@ -290,6 +290,7 @@ body {
 }
 .main-list {
   display: flex;
+  gap: 30px;
   list-style-type: none;
   margin-top: 94px;
   margin-bottom: 94px;
@@ -297,7 +298,6 @@ body {
 .main-sublist::before {
   content: "";
   display: block;
-  width: 270px;
   height: 120px;
   flex-shrink: 0;
   border-radius: 4px;
