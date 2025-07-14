@@ -136,6 +136,9 @@ body {
 .first-section {
   background-image: linear-gradient(to right,#2F303A66,#2F303A66),
   url(img/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1600px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -257,7 +260,7 @@ body {
 }
 .nav-5 {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--text-color2);
   font-size: 14px;
   font-family: Roboto;
   font-weight: 500;
@@ -272,7 +275,7 @@ body {
 }
 .nav-4 {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--text-color2);
   font-size: 14px;
   font-family: Roboto;
   font-weight: 500;
