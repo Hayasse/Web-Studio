@@ -432,13 +432,11 @@ body {
   display: flex;
   flex-direction: row;
   background-color: var(--section-color);
-    height: 252px;
+  height: 252px;
 }
 
 .footer-div {
-
   margin-left: 170px;
-
 }
 .footer-logo {
   width: 150px;
@@ -479,38 +477,35 @@ body {
 .connection {
   display: flex;
   width: 206px;
-height: 80px;
-flex-direction: column;
-margin-top: 82px;
-margin-left: 70px;
-
+  height: 80px;
+  flex-direction: column;
+  margin-top: 82px;
+  margin-left: 70px;
 }
 
 .connection-title {
-  color: #FFF;
-font-size: 14px;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
 
 .connection-list {
   margin-top: 15px;
-display: flex;
-gap: 10px;
-
+  display: flex;
+  gap: 10px;
 }
 
 .connection-sublist {
   display: flex;
   width: 44px;
   height: 44px;
-border-radius: 50%;
-background-color: rgba(255, 255, 255, 0.10);
-justify-content: center;
-    align-items: center;
-    
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
 }
 
 .connection-sublist:hover {
@@ -519,8 +514,8 @@ justify-content: center;
 
 .connection-svg {
   width: 20px;
-height: 20px;
-fill: #FFF;
+  height: 20px;
+  fill: #fff;
 }
 
 .buttons {
