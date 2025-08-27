@@ -403,7 +403,7 @@ body {
 
 .clients-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .clients-sublist {
@@ -432,14 +432,16 @@ body {
 }
 
 .footer {
-  display: flex;
-  flex-direction: row;
   background-color: var(--section-color);
   height: 252px;
 }
 
 .footer-div {
-  margin-left: 170px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-div-2 {
+  display: flex;
 }
 .footer-logo {
   width: 150px;
