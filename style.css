@@ -313,30 +313,14 @@ body {
   display: flex;
   gap: 30px;
   margin-top: 50px;
-  height: 294px;
-}
-.leisure-sublist {
-  width: 370px;
-}
-.leisure-sublist:nth-child(1) {
-  background-image: url(img/leisure1.jpg);
-  background-repeat: no-repeat;
-}
-.leisure-sublist:nth-child(2) {
-  background-image: url(img/leisure2.jpg);
-  background-repeat: no-repeat;
-}
-.leisure-sublist:nth-child(3) {
-  background-image: url(img/leisure3.jpg);
-  background-repeat: no-repeat;
-}
 
+}
 .leisure-span {
   display: flex;
   width: 370px;
   height: 70px;
   position: relative;
-  top: 224px;
+  bottom: 70px;
   color: #fff;
   text-align: center;
   font-size: 14px;
@@ -348,7 +332,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .team {
   display: flex;
   justify-content: flex-start;
@@ -357,7 +340,7 @@ body {
   align-items: center;
   height: 648px;
   background-color: var(--section-color3);
-  margin-top: 94px;
+  margin-top: 24px;
 }
 .team-title {
   color: var(--text-color);
