@@ -232,6 +232,22 @@ body {
   letter-spacing: 2.64px;
   word-wrap: break-word;
 }
+.backdrop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  background-color: rgba(33, 33, 33, 0.5);
+  opacity: 1;
+}
+.is-hidden {
+  
+}
+.modal {
+
+}
 .button {
   display: block;
   color: var(--text-color3);
