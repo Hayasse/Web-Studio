@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
     <header class="header">
       <div class="container">
         <div class="header-div">
@@ -29,7 +30,7 @@
       <nav class="nav">
         <ul class="nav-list">
           <li>
-            <a href="#" class="nav-1">Студія</a>
+            <a href="index.html" class="nav-1">Студія</a>
           </li>
           <li>
             <a href="portfolio.html" class="nav-2">Портфоліо</a>
@@ -52,7 +53,7 @@
       </div>
       </div>
       </div>
-      <header>
+    </header>
     <main>
       <section class="first-section">
         <div class="container">
@@ -71,15 +72,18 @@
               <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
               <ul class="modal-list">
                 <li class="modal-sublist">
-                  <form action="" class="modal-list-form">
-                    <label class="modal-label">Ім'я<input type="text" name="username" class="modal-input" autocomplete="on"/></label>
+                  <form class="modal-list-form">
+                    <label class="modal-label">
+                      Ім'я
+                      <input type="text" name="username" class="modal-input" autocomplete="on"/>
+                    </label>
                     <svg class="modal-list-svg">
                       <use href="img/symbol-defs.svg#person-black-18dp1"></use>
                     </svg>
                   </form>
                 </li>
                 <li class="modal-sublist">
-                  <form action="" class="modal-list-form">
+                  <form class="modal-list-form">
                     <label class="modal-label">Телефон<input type="tel" name="phone" class="modal-input" autocomplete="on"/></label>
                     <svg class="modal-list-svg">
                       <use href="img/symbol-defs.svg#phone-black-18dp1"></use>
@@ -87,7 +91,7 @@
                 </form>
                 </li>
                 <li class="modal-sublist">
-                  <form action="" class="modal-list-form">
+                  <form class="modal-list-form">
                       <svg class="modal-list-svg">
                       <use href="img/symbol-defs.svg#email-black-18dp1"></use>
                     </svg>
@@ -95,7 +99,7 @@
                 </form>
                 </li>
                 <li class="modal-sublist">
-                 <form action="" class="modal-list-form">
+                 <form class="modal-list-form">
                     <label class="modal-label">Коментар<textarea name="comment" placeholder="Введіть текст" class="modal-textarea"></textarea></label>
                 </form>
                 
@@ -103,8 +107,8 @@
               </ul>
               <form class="modal-request">
                   <label class="modal-label-requset">
-                    <input type="checkbox" name="request" value="request" unchecked class="modal-checkbox"/>
-                    <p class="modal-request-text">Погоджуюся з розсилкою та приймаю </p>
+                    <input type="checkbox" name="request" value="request" class="modal-checkbox"/>
+                    Погоджуюся з розсилкою та приймаю
                     <a href="#" class="modal-request-link">Умови договору</a>
                   </label>
               </form>
@@ -349,7 +353,7 @@
                   <use href="img/symbol-defs.svg#twitter">
                   </use></svg></a></li>
               <li class="connection-sublist">
-                  <a href="https://www.facebook.com/?locale=uk_UA target=" target="_blank"><svg class="connection-svg">
+                  <a href="https://www.facebook.com/?locale=uk_UA" target="_blank"><svg class="connection-svg">
                   <use href="img/symbol-defs.svg#facebook">
                   </use></svg></a></li>
               <li class="connection-sublist">
@@ -357,6 +361,18 @@
                   <use href="img/symbol-defs.svg#linkedin">
                   </use></svg></a></li>
               </ul>
+            </div>
+            <div class="newsletter">
+              <h2 class="newsletter-title">Підпишіться на розсилку</h2>
+              <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="E-mail">
+                <button class="newsletter-button">
+                <span class="newsletter-sent">Підписатися</span>
+                <svg class="newsletter-svg">
+                  <use href="img/symbol-defs.svg#iconsend"></use>
+                </svg>
+              </button>
+            </form>
             </div>
         </div>
       </div>
