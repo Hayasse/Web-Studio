@@ -136,51 +136,37 @@ textarea {
 .nav-list {
   column-gap: 50px;
   display: flex;
+  align-items: center;
 }
-.nav-1 {
+.nav-item {
+  position: relative;
+}
+.nav-link {
   color: var(--text-color);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
 }
-.nav-1:hover {
-  padding-bottom: 28px;
+.nav-link:hover {
   color: var(--logo-color-2);
-  border-bottom: #2196f3 solid 4px;
-  border-radius: 2px;
+
 }
 
 .active::after {
-  padding-bottom: 28px;
+  position: absolute;
+  top: 45px;
   content: "";
   display: block;
   height: 4px;
   width: 100%;
-  background-color: var(--color-active);
-  border-radius: 30px;
+  background-color: var(--logo-color-2);
+  border-radius: 2px;
 }
 .nav-item:hover {
   color: var(--logo-color-2);
 }
 
-.nav-2 {
-  color: var(--text-color);
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.28px;
-  word-wrap: break-word;
-}
 
-
-.nav-3 {
-  text-decoration: none;
-  color: var(--text-color);
-  font-size: 14px;
-  font-family: Roboto;
-  font-weight: 500;
-  letter-spacing: 0.28px;
-  word-wrap: break-word;
-}
 
 .contacts {
   column-gap: 50px;
@@ -190,6 +176,7 @@ textarea {
   width: 170px;
 }
 .nav-hover:hover {
+  color: var(--logo-color-2);
   fill: var(--logo-color-2);
 }
 .nav-4 {
