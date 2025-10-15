@@ -61,59 +61,7 @@
             вашого бізнесу
           </h1>
           <button type="submit" class="button" data-modal-open>Замовити послугу</button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button type="button" class="modal-button" data-modal-close>
-                <svg class="modal-svg">
-                  <use href="img/symbol-defs.svg#close1"></use>
-                </svg>
-              </button>
-              <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
-              <ul class="modal-list">
-                <li class="modal-sublist">
-                  <form class="modal-list-form">
-                    <label class="modal-label">
-                      Ім'я
-                      <input type="text" name="username" class="modal-input" autocomplete="on"/>
-                    </label>
-                    <svg class="modal-list-svg">
-                      <use href="img/symbol-defs.svg#person-black-18dp1"></use>
-                    </svg>
-                  </form>
-                </li>
-                <li class="modal-sublist">
-                  <form class="modal-list-form">
-                    <label class="modal-label">Телефон<input type="tel" name="phone" class="modal-input" autocomplete="on"/></label>
-                    <svg class="modal-list-svg">
-                      <use href="img/symbol-defs.svg#phone-black-18dp1"></use>
-                    </svg>
-                </form>
-                </li>
-                <li class="modal-sublist">
-                  <form class="modal-list-form">
-                      <svg class="modal-list-svg">
-                      <use href="img/symbol-defs.svg#email-black-18dp1"></use>
-                    </svg>
-                    <label class="modal-label">Пошта<input type="email" name="email" class="modal-input" autocomplete="on"/></label>
-                </form>
-                </li>
-                <li class="modal-sublist">
-                 <form class="modal-list-form">
-                    <label class="modal-label">Коментар<textarea name="comment" placeholder="Введіть текст" class="modal-textarea"></textarea></label>
-                </form>
-                
-                </li>
-              </ul>
-              <form class="modal-request">
-                  <label class="modal-label-requset">
-                    <input type="checkbox" name="request" value="request" class="modal-checkbox"/>
-                    Погоджуюся з розсилкою та приймаю
-                    <a href="#" class="modal-request-link">Умови договору</a>
-                  </label>
-              </form>
-                <button type="button" class="modal-button-agree">Відправити</button>
-            </div>
-          </div>
+          
         </div>
       </section>
       <section class="main-section">
@@ -376,6 +324,60 @@
         </div>
       </div>
     </footer>
+    <!-- Розмітка модального вікна -->
+    <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button type="button" class="modal-button" data-modal-close>
+                <svg class="modal-svg">
+                  <use href="img/symbol-defs.svg#close1"></use>
+                </svg>
+              </button>
+              <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+              <ul class="modal-list">
+                <li class="modal-sublist">
+                  <form class="modal-list-form">
+                    <label class="modal-label">
+                      Ім'я
+                      <input type="text" name="username" class="modal-input" autocomplete="on"/>
+                    </label>
+                    <svg class="modal-list-svg">
+                      <use href="img/symbol-defs.svg#person-black-18dp1"></use>
+                    </svg>
+                  </form>
+                </li>
+                <li class="modal-sublist">
+                  <form class="modal-list-form">
+                    <label class="modal-label">Телефон<input type="tel" name="phone" class="modal-input" autocomplete="on"/></label>
+                    <svg class="modal-list-svg">
+                      <use href="img/symbol-defs.svg#phone-black-18dp1"></use>
+                    </svg>
+                </form>
+                </li>
+                <li class="modal-sublist">
+                  <form class="modal-list-form">
+                      <svg class="modal-list-svg">
+                      <use href="img/symbol-defs.svg#email-black-18dp1"></use>
+                    </svg>
+                    <label class="modal-label">Пошта<input type="email" name="email" class="modal-input" autocomplete="on"/></label>
+                </form>
+                </li>
+                <li class="modal-sublist">
+                 <form class="modal-list-form">
+                    <label class="modal-label">Коментар<textarea name="comment" placeholder="Введіть текст" class="modal-textarea"></textarea></label>
+                </form>
+                
+                </li>
+              </ul>
+              <form class="modal-request">
+                  <label class="modal-label-requset">
+                    <input type="checkbox" name="request" value="request" class="modal-checkbox"/>
+                    Погоджуюся з розсилкою та приймаю
+                    <a href="#" class="modal-request-link">Умови договору</a>
+                  </label>
+              </form>
+                <button type="button" class="modal-button-agree">Відправити</button>
+            </div>
+      </div>
     <script type="module" src="modal.js"></script>
   </body>
 </html>
