@@ -59,6 +59,12 @@ a {
 
 body {
   font-family: "Roboto";
+
+}
+@media screen and (max-width: 320px) {
+  body {
+    overflow: hidden;
+      }
 }
 textarea {
   resize: none;
